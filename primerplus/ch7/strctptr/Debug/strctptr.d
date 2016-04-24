@@ -1,0 +1,1 @@
+strctptr.o: ../strctptr.cpp

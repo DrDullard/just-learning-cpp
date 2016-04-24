@@ -1,0 +1,38 @@
+/*
+ * ex7_7.cpp
+ *
+ *  Redo Listing 7.7, modifying the three array-handling functions to
+ *  each use two pointer parameters to represent a range.  The fill_array()
+ *  function, instead of returning the actual number of items read,
+ *  should return a pointer to the location after the location filled;
+ *  the other functions can use this pointer as the second argument
+ *  to identify the end of the data.
+ *
+ *  Created on: Apr 23, 2016
+ *      Author: lamadd0x
+ */
+
+// Original listing filename was arrfun3.cpp
+
+#include <iostream>
+
+const int Max = 5;
+
+/* -- Function Prototypes -- */
+int fill_array( double ar[], int limit );
+void show_array( const double ar[], int n );
+void revalue( double r, double ar[], int n );
+
+int main()
+{
+	double properties[Max];
+
+	int size = fill_array(properties, Max);
+
+	show_array(properties, size);
+
+	if (size > 0)
+	{
+		std::cout << "Enter revaluation factor: ";
+	}
+}

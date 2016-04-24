@@ -1,0 +1,16 @@
+/*
+ * ex4_9.cpp
+ *
+ * Exercise 9: Do programming Exercise 6, but instead of declaring an
+ * array of three CandyBar structures, use the new allocate the array
+ * dynamically.
+ *
+ *  Created on: Apr 3, 2016
+ *      Author: lamadd0x
+ */
+
+#import <iostream>
+#import <string>
+
+
+

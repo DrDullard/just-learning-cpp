@@ -1,0 +1,60 @@
+14:17:20 **** Build of configuration Debug for project ex5_10 ****
+make all 
+Building file: ../ex5_10.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ex5_10.d" -MT"ex5_10.o" -o "ex5_10.o" "../ex5_10.cpp"
+Finished building: ../ex5_10.cpp
+ 
+Building target: ex5_10
+Invoking: MacOS X C++ Linker
+g++  -o "ex5_10"  ./ex5_10.o   
+Finished building target: ex5_10
+ 
+14:17:24 **** Incremental Build of configuration Debug for project ex5_10 ****
+make all 
+make: Nothing to be done for `all'.
+14:18:07 **** Incremental Build of configuration Debug for project ex5_10 ****
+make all 
+Building file: ../ex5_10.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ex5_10.d" -MT"ex5_10.o" -o "ex5_10.o" "../ex5_10.cpp"
+Finished building: ../ex5_10.cpp
+ 
+Building target: ex5_10
+Invoking: MacOS X C++ Linker
+g++  -o "ex5_10"  ./ex5_10.o   
+Finished building target: ex5_10
+ 
+14:21:08 **** Incremental Build of configuration Debug for project ex5_10 ****
+make all 
+make: Nothing to be done for `all'.
+14:23:02 **** Incremental Build of configuration Debug for project ex5_10 ****
+make all 
+make: Nothing to be done for `all'.
+14:25:49 **** Incremental Build of configuration Debug for project ex5_10 ****
+make all 
+Building file: ../ex5_10.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ex5_10.d" -MT"ex5_10.o" -o "ex5_10.o" "../ex5_10.cpp"
+Finished building: ../ex5_10.cpp
+ 
+Building target: ex5_10
+Invoking: MacOS X C++ Linker
+g++  -o "ex5_10"  ./ex5_10.o   
+Finished building target: ex5_10
+ 
+14:27:40 **** Incremental Build of configuration Debug for project ex5_10 ****
+make all 
+Building file: ../ex5_10.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ex5_10.d" -MT"ex5_10.o" -o "ex5_10.o" "../ex5_10.cpp"
+Finished building: ../ex5_10.cpp
+ 
+Building target: ex5_10
+Invoking: MacOS X C++ Linker
+g++  -o "ex5_10"  ./ex5_10.o   
+Finished building target: ex5_10
+ 
+14:29:13 **** Incremental Build of configuration Debug for project ex5_10 ****
+make all 
+make: Nothing to be done for `all'.

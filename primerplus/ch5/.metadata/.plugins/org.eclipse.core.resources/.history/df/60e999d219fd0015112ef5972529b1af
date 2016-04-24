@@ -1,0 +1,55 @@
+/*
+ * ex5_5.cpp
+ *
+ *	Exercise 5: You sell the book C++ for Fools.  Write a program that
+ *	has you enter a year's worth of Monthly Sales (in terms of number
+ *	of books, not of money).  The program should use a loop to prompt
+ *	you by month, using an array of char * (or an array of string
+ *	objects, if you prefer) initialized to the month strings and storing
+ *	the input data in an array of int. Then, the program should find
+ *	the sum of the array contents and report the total sales for the
+ *	year.
+ *
+ *  Created on: Apr 7, 2016
+ *      Author: lamadd0x
+ */
+
+#include <iostream>
+#include <array>
+
+int main()
+{
+	char* month[12] = new char[10];
+	int sales[12];
+	int sum = 0;
+
+	*month[0] = "January";
+	*month[1] = "February";
+	*month[2] = "March";
+	*month[3] = "April";
+	*month[4] = "May";
+	*month[5] = "June";
+	*month[6] = "July";
+	*month[7] = "August";
+	*month[8] = "September";
+	*month[9] = "October";
+	*month[10] = "November";
+	*month[11] = "December";
+
+	for (int i=0; i < 12;i++)
+	{
+		std::cout << "Enter sales for " << month[0] <<":";
+		std::cin >> sales[i];
+	}
+
+	for (int i = 0; i < 12;i++);
+	{
+		sum += sales[i];
+	}
+
+	std::cout << "Total Sales for the year are " << sum << ".\n";
+
+	return 0;
+}
+
+

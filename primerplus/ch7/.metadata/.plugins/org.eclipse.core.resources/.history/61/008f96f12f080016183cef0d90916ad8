@@ -1,0 +1,34 @@
+/*
+ * ex7_2.cpp
+ *
+ *	Write a program that asks the user to enter up to 10 golf scores,
+ *	which are to be stored in an array. You should provide a means for
+ *	the user to terminate input prior to entering 10 scores. The program
+ *	should display all the scores on one line and report the average
+ *	score.  Handle input, display, and the average calculation with
+ *	three separate array-processing functions.
+ *
+ *  Created on: Apr 21, 2016
+ *      Author: lamadd0x
+ */
+
+#include <iostream>
+
+int fill_scores(int scores[], const int max_size);
+void show_scores(const int scores[], const int size);
+float avg(int scores[], const int size);
+
+int main()
+{
+	const int ArSize = 10;
+	int scores[ArSize] = {};
+
+
+	std::cout << "Enter 10 scores (or less, enter q to quit)";
+	int sz = fill_scores(scores, ArSize);
+
+
+}
+
+
+

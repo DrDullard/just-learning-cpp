@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;ex5_6.cpp&apos; to &apos;ex5_6&apos;" description="Move &apos;ex5_6.cpp&apos; to &apos;ex5_6&apos;" destination="/ex5_6" element1="/ex5_5/ex5_6.cpp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1460114327350" updateReferences="true"/>
+</session>

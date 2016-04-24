@@ -1,0 +1,15 @@
+17:29:53 **** Incremental Build of configuration Debug for project ex6_9 ****
+make all 
+Building file: ../ex6_9.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ex6_9.d" -MT"ex6_9.o" -o "ex6_9.o" "../ex6_9.cpp"
+Finished building: ../ex6_9.cpp
+ 
+Building target: ex6_9
+Invoking: MacOS X C++ Linker
+g++  -o "ex6_9"  ./ex6_9.o   
+Finished building target: ex6_9
+ 
+17:29:55 **** Incremental Build of configuration Debug for project ex6_9 ****
+make all 
+make: Nothing to be done for `all'.

@@ -1,0 +1,20 @@
+/*
+ * ex6_1.cpp
+ *
+ *  Exercise 1: Write a program that reads keyboard input to the @
+ *  symbol and that echos the input except for digits, converting
+ *  each uppercase character to lowercase, and vice versa.
+ *
+ *  Created on: Apr 11, 2016
+ *      Author: lamadd0x
+ */
+
+#include <iostream>
+#include <cctype>
+
+int main()
+{
+
+}
+
+

@@ -1,0 +1,15 @@
+18:11:02 **** Incremental Build of configuration Debug for project ex6_6 ****
+make all 
+Building file: ../ex6_6.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ex6_6.d" -MT"ex6_6.o" -o "ex6_6.o" "../ex6_6.cpp"
+Finished building: ../ex6_6.cpp
+ 
+Building target: ex6_6
+Invoking: MacOS X C++ Linker
+g++  -o "ex6_6"  ./ex6_6.o   
+Finished building target: ex6_6
+ 
+
+18:11:02 Build Finished (took 409ms)
+

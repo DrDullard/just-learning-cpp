@@ -1,0 +1,20 @@
+/*
+ * ex6_8.cpp
+ *
+ *	Write a program that opens a text file, reads it character-by-
+ *	character to the end of the file, and reports the number of
+ *	characters in the file.  (Similar to wc -c).
+ *
+ *  Created on: Apr 15, 2016
+ *      Author: lamadd0x
+ */
+
+#include <iostream>
+#include <fstream>
+
+int main()
+{
+
+}
+
+

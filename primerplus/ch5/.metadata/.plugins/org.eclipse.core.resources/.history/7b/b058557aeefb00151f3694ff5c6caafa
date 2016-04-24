@@ -1,0 +1,22 @@
+/*
+ * ex5_2.cpp
+ *
+ * Exercise 2: Redo Listing 5.4 using a type array object instead of
+ * a built-in array and type long double instead of long long.  Find
+ * the value of 100!.
+ *
+ *  Created on: Apr 6, 2016
+ *      Author: lamadd0x
+ */
+
+#include <iostream>
+
+const int ArSize = 16;
+
+int main()
+{
+
+}
+
+
+

@@ -1,0 +1,33 @@
+/*
+ * ex7_8.cpp
+ *
+ *	Redo Listing 7.15 without using the array class. Do two versions:
+ *
+ *	(a) Use an ordinary array of const char * for the strings
+ *		representing the season names, and use an ordinary array of
+ *		double for the expenses.
+ *
+ *  (b) Use an ordinary array of const char * for the strings
+ *  	representing the season names, and use a structure whose
+ *  	sole member is an ordinary array of double for the expenses.
+ *  	(This design is similar to the basic design of the array class.)
+ *
+ *  Created on: Apr 23, 2016
+ *      Author: lamadd0x
+ */
+
+// Original was meant to have filename arrobj.cpp
+
+#include <iostream>
+#include <array>
+#include <string>
+
+/* -- Constants -- */
+const int Seasons = 4;
+const std::array<std::string, Seasons> Snames =
+	{"Spring", "Summer", "Fall", "Winter"};
+
+/* -- Function Prototypes -- */
+
+
+

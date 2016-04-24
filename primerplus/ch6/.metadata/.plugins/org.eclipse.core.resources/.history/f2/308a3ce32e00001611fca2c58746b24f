@@ -1,0 +1,41 @@
+/*
+ * ex6_1.cpp
+ *
+ *  Exercise 1: Write a program that reads keyboard input to the @
+ *  symbol and that echos the input except for digits, converting
+ *  each uppercase character to lowercase, and vice versa.
+ *
+ *  Created on: Apr 11, 2016
+ *      Author: lamadd0x
+ */
+
+#include <iostream>
+#include <cctype>
+
+int main()
+{
+	char ch;
+
+	std::cout << "Please enter a line of text: ";
+
+	while ( std::cin >> ch && ch != '\n' )
+	{
+		if (isdigit(ch))
+			continue;
+		else if (ispunct(ch))
+			std::cout << ch;
+		else if (isupper(ch))
+			std::cout << tolower(ch);
+		else if (islower(ch))
+			std::cout << toupper(ch);
+		else if (ch == '@')
+			{
+				std::cout << "\nDone!\n";
+				break;
+			}
+
+	}
+	return 0;
+}
+
+

@@ -1,0 +1,15 @@
+10:07:32 **** Incremental Build of configuration Debug for project ex7_4 ****
+make all 
+Building file: ../ex7_4.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ex7_4.d" -MT"ex7_4.o" -o "ex7_4.o" "../ex7_4.cpp"
+Finished building: ../ex7_4.cpp
+ 
+Building target: ex7_4
+Invoking: MacOS X C++ Linker
+g++  -o "ex7_4"  ./ex7_4.o   
+Finished building target: ex7_4
+ 
+
+10:07:32 Build Finished (took 438ms)
+

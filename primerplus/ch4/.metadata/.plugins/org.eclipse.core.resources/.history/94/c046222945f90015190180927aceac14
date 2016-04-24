@@ -1,0 +1,21 @@
+/*
+ * ex4_6.cpp
+ *
+ * Exercise 6: The CandyBar structure has three members as described in
+ * Exercise 5.  Write a program that creates an array of three CandyBar
+ * structures, initializes them to values of your choice, and then
+ * displays the contents of each structure.
+ *
+ *  Created on: Apr 2, 2016
+ *      Author: lamadd0x
+ */
+
+#import <iostream>
+#import <string>
+
+int main()
+{
+
+}
+
+

@@ -1,0 +1,41 @@
+/*
+ * ex4_8.cpp
+ *
+ * Do Exercise 7 again, only use new to allocate a structure instead
+ * declaring a structure variable.  Also have the program request the
+ * diameter before it requests the company name.
+ *
+ *  Created on: Apr 3, 2016
+ *      Author: lamadd0x
+ */
+
+#import <iostream>
+#import <string>
+
+struct Pizza
+{
+	std::string maker;
+	int diameter;
+	float weight;
+};
+
+int main()
+{
+	Pizza* pie = new Pizza;
+
+	std::cout << "What is the diameter of the pizza? ";
+	(std::cin >> pie->diameter).get();
+
+	std::cout << "Who made the pizza? ";
+	std::getline(std::cin,pie->maker);
+
+	std::cout << "How much does the pizza weight? ";
+	std::cin >> pie->weight;
+
+	std::cout << "Maker: " << pie->maker << std::endl;
+	std::cout << "Diameter: " << pie->diameter << std::endl;
+	std::cout << "Weight: " << pie->weight << std::endl;
+
+	return 0;
+
+}

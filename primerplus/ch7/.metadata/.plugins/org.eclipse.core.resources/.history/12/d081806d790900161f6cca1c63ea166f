@@ -1,0 +1,49 @@
+/*
+ * ex7_6.cpp
+ *
+ *	Write a program that uses the following function:
+ *
+ *	Fill_array() takes as arguments the name of an array of double
+ *	values and an array size.  It prompts the user to enter double
+ *	values to be entered in the array. It ceases taking input when
+ *	the array is full or when the user enters non-numeric input, and
+ *	it returns the actual number of entries.
+ *
+ *	Show_array() takes as arguments the name of an array of double
+ *	values and an array size and displays the contents of the array.
+ *
+ *	Reverse_array() takes as arguments the name of an array of double
+ *	values and an array size and reverses the order of the values
+ *	stored in the array.
+ *
+ *	The program should use these functions to fill an array, show the
+ *	array, reverse the array, show the array, reverse all but the first
+ *	and last elements of the array, and then show the array.
+ *
+ *  Created on: Apr 23, 2016
+ *      Author: lamadd0x
+ */
+
+#include <iostream>
+
+const int ArSize = 20;
+
+/* -- Function Prototypes -- */
+int fill_array(double [], const int);
+void show_array(const double [], const int);
+void reverse_array(double[], const int);
+
+/* -- Function Definitions -- */
+int fill_array(double arr[], const int max_size)
+{
+	int i = 0;
+	std::cout << "Element #1: ";
+
+	while (i < max_size && (std::cin >> arr[i]).good())
+		(++i < max_size) ? std::cout << "Element #" << i+1 << ": " :
+						   std::cout << "Done!\n";
+
+	return i;
+}
+
+

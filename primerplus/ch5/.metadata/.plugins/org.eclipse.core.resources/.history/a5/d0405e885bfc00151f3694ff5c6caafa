@@ -1,0 +1,16 @@
+/*
+ * ex5_3.cpp
+ *
+ * Exercise 3: Write a program that asks the user to enter an integer
+ * and then prints the cummulative sum of the integers entered to date.
+ * Have the program terminate when the user enters 0.
+ *
+ *  Created on: Apr 6, 2016
+ *      Author: lamadd0x
+ */
+
+#include <iostream>
+
+
+
+

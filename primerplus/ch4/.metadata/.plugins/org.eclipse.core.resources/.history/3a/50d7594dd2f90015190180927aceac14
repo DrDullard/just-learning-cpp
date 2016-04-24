@@ -1,0 +1,21 @@
+/*
+ * ex4_8.cpp
+ *
+ * Do Exercise 7 again, only use new to allocate a structure instead
+ * declaring a structure variable.  Also have the program request the
+ * diameter before it requests the company name.
+ *
+ *  Created on: Apr 3, 2016
+ *      Author: lamadd0x
+ */
+
+#import <iostream>
+#import <string>
+
+struct Pizza
+{
+	std::string maker;
+
+};
+
+

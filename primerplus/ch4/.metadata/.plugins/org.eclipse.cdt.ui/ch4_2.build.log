@@ -1,0 +1,15 @@
+10:46:01 **** Incremental Build of configuration Debug for project ch4_2 ****
+make all 
+Building file: ../ch4_2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ch4_2.d" -MT"ch4_2.o" -o "ch4_2.o" "../ch4_2.cpp"
+Finished building: ../ch4_2.cpp
+ 
+Building target: ch4_2
+Invoking: MacOS X C++ Linker
+g++  -o "ch4_2"  ./ch4_2.o   
+Finished building target: ch4_2
+ 
+
+10:46:01 Build Finished (took 394ms)
+

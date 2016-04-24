@@ -1,0 +1,8 @@
+23:35:39 **** Incremental Build of configuration Default for project qthw ****
+make all 
+qmake -o QtMakefile qthw.pro CONFIG+=debug_and_release
+make: qmake: No such file or directory
+make: *** [QtMakefile] Error 1
+
+23:35:39 Build Finished (took 76ms)
+

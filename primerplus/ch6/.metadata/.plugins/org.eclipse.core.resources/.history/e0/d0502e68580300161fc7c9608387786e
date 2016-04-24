@@ -1,0 +1,64 @@
+/*
+ * ex6_9.cpp
+ *
+ *  Do Programming Exercise 6 but modify it to get information from a
+ *  file.  the first tiem in the file should be the number of
+ *  contributors, and the rest of the lines should consist of pairs of
+ *  lines, with the first line of each pair being a contributors name
+ *  and the second being a contribution.
+ *
+ *  Created on: Apr 15, 2016
+ *      Author: lamadd0x
+ */
+#include <iostream>
+
+const int ArSize = 20;
+
+struct Patron
+{
+	char name[ArSize];
+	double contribution;
+};
+
+int main()
+{
+	int numContr;
+
+	std::cout << "Please enter the number of contributers: ";
+
+	(std::cin >> numContr).get();
+
+	Patron* donor = new Patron[numContr];
+
+	for (int i = 0; i < numContr; i++)
+	{
+		std::cout << "Donor #" << i + 1 << std::endl;
+		std::cout << "Name: ";
+		std::cin.getline(donor[i].name, ArSize);
+		std::cout << "Contribution: ";
+		(std::cin >> donor[i].contribution).get();
+	}
+
+	std::cout << "\n\nGrand Patrons\n";
+
+	for (int i = 0; i < numContr; i++)
+		if (donor[i].contribution >= 10000)
+			std::cout << donor[i].name << ", $"
+					  << donor[i].contribution << std::endl;
+
+	std::cout << "\nPatrons\n";
+
+	for (int i = 0; i < numContr; i++)
+		if(donor[i].contribution < 10000)
+			std::cout << donor[i].name << ", $"
+			  	  	  << donor[i].contribution << std::endl;
+
+
+	delete [] donor;
+
+	return 0;
+
+}
+
+
+

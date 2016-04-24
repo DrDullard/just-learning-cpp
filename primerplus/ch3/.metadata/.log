@@ -1,0 +1,65 @@
+!SESSION 2016-03-27 17:27:08.148 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/lamadd0x/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/lamadd0x/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-03-27 17:27:45.371
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-27 17:29:28.741
+!MESSAGE Indexed 'ex3_5' (0 sources, 0 headers) in 0.005 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-27 17:40:11.288
+!MESSAGE Indexed 'ex3_5' (0 sources, 0 headers) in 0.011 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-27 17:40:33.831
+!MESSAGE Indexed 'ex3_5' (0 sources, 0 headers) in 0.015 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-27 17:40:54.581
+!MESSAGE Indexed 'ex3_5' (0 sources, 0 headers) in 0.008 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-27 17:41:08.927
+!MESSAGE Indexed 'ex3_5' (0 sources, 0 headers) in 0.005 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-27 17:41:23.028
+!MESSAGE Indexed 'ex3_5' (0 sources, 0 headers) in 0.006 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-27 17:41:28.775
+!MESSAGE Indexed 'ex3_5' (0 sources, 0 headers) in 0.009 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-27 17:42:18.834
+!MESSAGE Indexed 'ex3_5' (0 sources, 0 headers) in 0.009 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-27 17:42:38.599
+!MESSAGE Indexed 'ex3_5' (0 sources, 0 headers) in 0.011 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-27 17:43:20.807
+!MESSAGE Indexed 'ex3_5' (0 sources, 0 headers) in 0.007 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-27 17:43:44.381
+!MESSAGE Indexed 'ex3_5' (1 sources, 173 headers) in 4.62 sec: 21,497 declarations; 45,487 references; 0 unresolved inclusions; 24 syntax errors; 62 unresolved names (0.092%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-27 17:43:59.620
+!MESSAGE Indexed 'ex3_5' (1 sources, 173 headers) in 3.65 sec: 21,497 declarations; 45,487 references; 0 unresolved inclusions; 24 syntax errors; 62 unresolved names (0.092%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-27 17:52:05.277
+!MESSAGE Indexed 'ex3_6' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-27 18:00:18.586
+!MESSAGE Indexed 'ex3_7' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-27 18:04:20.109
+!MESSAGE Indexed 'ex3_7' (0 sources, 0 headers) in 0.005 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2016-04-02 10:10:07.833 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/lamadd0x/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/lamadd0x/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-04-02 10:10:21.430
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

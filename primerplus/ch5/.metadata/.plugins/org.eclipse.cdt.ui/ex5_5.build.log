@@ -1,0 +1,15 @@
+18:57:18 **** Incremental Build of configuration Debug for project ex5_5 ****
+make all 
+Building file: ../ex5_5.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ex5_5.d" -MT"ex5_5.o" -o "ex5_5.o" "../ex5_5.cpp"
+Finished building: ../ex5_5.cpp
+ 
+Building target: ex5_5
+Invoking: MacOS X C++ Linker
+g++  -o "ex5_5"  ./ex5_5.o   
+Finished building target: ex5_5
+ 
+
+18:57:18 Build Finished (took 442ms)
+

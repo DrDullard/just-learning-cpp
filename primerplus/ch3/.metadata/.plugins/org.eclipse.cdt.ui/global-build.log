@@ -1,0 +1,21 @@
+18:11:29 **** Build of configuration Debug for project ex3_7 ****
+make all 
+Building file: ../ex3_7.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ex3_7.d" -MT"ex3_7.o" -o "ex3_7.o" "../ex3_7.cpp"
+Finished building: ../ex3_7.cpp
+ 
+Building target: ex3_7
+Invoking: MacOS X C++ Linker
+g++  -o "ex3_7"  ./ex3_7.o   
+Finished building target: ex3_7
+ 
+18:11:32 **** Incremental Build of configuration Debug for project ex3_7 ****
+make all 
+make: Nothing to be done for `all'.
+18:12:11 **** Incremental Build of configuration Debug for project ex3_7 ****
+make all 
+make: Nothing to be done for `all'.
+18:12:32 **** Incremental Build of configuration Debug for project ex3_7 ****
+make all 
+make: Nothing to be done for `all'.
