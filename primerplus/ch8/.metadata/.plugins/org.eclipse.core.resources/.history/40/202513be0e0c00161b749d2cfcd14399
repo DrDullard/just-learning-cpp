@@ -1,0 +1,33 @@
+/*
+ * ex8_2.cpp
+ *
+ *	The CandyBar structure three members. The first member holds the
+ *	brand name of a candy bar. The second member holds the weight
+ *	(which may have a fractional part) of the candy bar, and the third
+ *	member holds the number of calories (an integer value) in the
+ *	candy bar. Write a program that uses a function that takes as
+ *	arguments a reference to CandyBar, a pointer-to-char, a double,
+ *	and an int and uses the last three values to set the corresponding
+ *	members of the structure. The last three arguments should have the
+ *	default values of "Millennium Munch," 2.85, and 350. Also the
+ *	program should use a function that takes a reference to a CandyBar
+ *	as an argument and displays the contents of the structure. Use
+ *	const where appropriate.
+ *
+ *  Created on: Apr 26, 2016
+ *      Author: lamadd0x
+ */
+
+#include <iostream>
+
+const int ArSize = 30;
+
+struct CandyBar
+{
+	char brand[ArSize];
+	double weight;
+	int calories;
+};
+
+
+

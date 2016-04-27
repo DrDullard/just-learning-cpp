@@ -1,0 +1,10 @@
+19:30:39 **** Incremental Build of configuration Debug for project ex8_1 ****
+make all 
+Building target: ex8_1
+Invoking: MacOS X C++ Linker
+g++  -o "ex8_1"  ./ex8_1.o   
+Finished building target: ex8_1
+ 
+
+19:30:39 Build Finished (took 79ms)
+

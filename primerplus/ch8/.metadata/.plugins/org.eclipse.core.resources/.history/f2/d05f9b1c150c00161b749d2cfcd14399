@@ -1,0 +1,58 @@
+/*
+ * ex8_3.cpp
+ *
+ *	Write a function that takes a reference to a string object as its
+ *	parameter and that converts the contents of the string to uppercase.
+ *	Use the toupper() function described in Table 6.4 of Chapter 6. Write
+ *	a program that uses a loop which allows you test the function with
+ *	different input. A sample run might look like this:
+ *
+ *	Enter a string (q to quit): go away
+ *	GO AWAY
+ *	Next string (q to quit): good grief!
+ *	GOOD GRIEF!
+ *	Next string (q to quit): q
+ *	Bye.
+ *
+ *  Created on: Apr 26, 2016
+ *      Author: lamadd0x
+ */
+
+#include <iostream>
+#include <string>
+#include <cctype>
+
+void convup(std::string &);
+
+int main()
+{
+	std::cout << "Enter a string (q to quit)";
+
+	std::string str;
+	while(std::getline(std::cin, str))
+	{
+		if (str == "q")
+		{
+			std::cout << "Bye.\n";
+			break;
+		}
+
+		convup(str);
+		std::cout << str << std::endl;
+	}
+
+	return 0;
+}
+
+void convup(std::string &str)
+{
+	int i = 0;
+	do
+	{
+		str[i] = toupper(char(str[i]));
+		i++;
+	}
+	while(i < str.length());
+
+
+}

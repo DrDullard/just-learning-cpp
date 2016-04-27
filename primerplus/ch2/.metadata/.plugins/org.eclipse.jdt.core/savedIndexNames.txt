@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+/Users/lamadd0x/other/git/cpp_repos/primerplus/ch2/.metadata/.plugins/org.eclipse.jdt.core
+33544597.index

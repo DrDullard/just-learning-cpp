@@ -1,0 +1,65 @@
+/*
+ * ex8_1.cpp
+ *
+ *	Write a function that takes one argument, the address of a string,
+ *	and prints that string once. However, if a second, type int,
+ *	argument is provided and is nonzero, the function should print the
+ *	string a number of times equal to the number of times that function
+ *	has been called at that point. (Note that the number of time the
+ *	string is printed is not equal to the value of the second argument;
+ *	it is equal to the number of times the function has been called.)
+ *	Yes this is a silly function, but it makes you use some of the
+ *	techniques discussed in this chapter. Use the function in a simple
+ *	program that demonstrates how the function works.
+ *
+ *  Created on: Apr 26, 2016
+ *      Author: lamadd0x
+ */
+
+#include <iostream>
+
+const int ArSize = 20;
+
+void show_string(const char *);
+void show_string(const char *, int n);
+
+int main()
+{
+	int t = 0;
+	char st[ArSize] = "This is a string.\n";
+
+	show_string(st);
+
+	std::cout << t << std::endl;
+	show_string(st, 4);
+	std::cout << "t = " << t << " n = 4" << std::endl;
+	std::cout << "n = 3\n";
+
+	show_string(st, 3);
+	std::cout << std::endl;
+	std::cout << "n = 12\n";
+	show_string(st, 12);
+	std::cout << std::endl;
+	show_string(st);
+
+	return 0;
+
+}
+
+void show_string(const char* string)
+{
+	t++;
+	std::cout << string;
+	return;
+}
+
+void show_string(const char * string, int n)
+{
+	t++;
+	for (int i = 0; i < t; i++)
+		std::cout << string;
+	return;
+
+}
+
+
