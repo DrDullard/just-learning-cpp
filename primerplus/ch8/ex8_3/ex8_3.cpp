@@ -48,12 +48,13 @@ int main()
 void convup(std::string &str)
 {
 	int i = 0;
+	int len = str.length();
 	do
 	{
 		str[i] = toupper(str[i]);
 		i++;
 	}
-	while(i < str.length());
+	while(i < len);
 
 
 }
