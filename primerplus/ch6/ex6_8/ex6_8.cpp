@@ -6,7 +6,7 @@
  *	characters in the file.  (Similar to wc -c).
  *
  *  Created on: Apr 15, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

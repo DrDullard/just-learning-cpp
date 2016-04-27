@@ -9,7 +9,7 @@
  * the sum of all the integers from 2 to 9 is 44.
  *
  *  Created on: Apr 6, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

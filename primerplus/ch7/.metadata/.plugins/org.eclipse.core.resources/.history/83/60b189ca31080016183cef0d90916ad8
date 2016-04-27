@@ -9,7 +9,7 @@
  *	three separate array-processing functions.
  *
  *  Created on: Apr 21, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

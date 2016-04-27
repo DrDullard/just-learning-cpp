@@ -16,7 +16,7 @@
  *	negative number or non-numeric input.
  *
  *  Created on: Apr 13, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

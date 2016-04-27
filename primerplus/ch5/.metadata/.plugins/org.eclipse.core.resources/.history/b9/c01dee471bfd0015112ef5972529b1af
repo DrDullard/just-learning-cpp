@@ -11,7 +11,7 @@
  *	year.
  *
  *  Created on: Apr 7, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

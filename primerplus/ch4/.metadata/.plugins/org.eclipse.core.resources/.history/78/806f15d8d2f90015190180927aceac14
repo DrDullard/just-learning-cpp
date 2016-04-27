@@ -6,7 +6,7 @@
  * diameter before it requests the company name.
  *
  *  Created on: Apr 3, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #import <iostream>

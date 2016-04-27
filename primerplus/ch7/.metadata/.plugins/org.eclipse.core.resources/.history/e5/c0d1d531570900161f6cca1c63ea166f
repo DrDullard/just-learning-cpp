@@ -8,7 +8,7 @@
  *  c) Write a simple program that uses these functions.
  *
  *  Created on: Apr 23, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 

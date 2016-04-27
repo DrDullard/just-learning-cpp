@@ -6,7 +6,7 @@
  * Have the program terminate when the user enters 0.
  *
  *  Created on: Apr 6, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

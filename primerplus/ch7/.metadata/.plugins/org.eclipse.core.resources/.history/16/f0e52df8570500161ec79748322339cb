@@ -2,7 +2,7 @@
  * strctptr.cpp
  *
  *  Created on: Apr 18, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

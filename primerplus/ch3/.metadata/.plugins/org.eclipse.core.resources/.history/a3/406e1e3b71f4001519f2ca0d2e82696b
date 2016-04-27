@@ -9,7 +9,7 @@
  * Note thant 100 km is 62.14 miles, and 1 gallon is 3.875 liters.
  *
  *  Created on: Mar 27, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #import <iostream>

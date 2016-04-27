@@ -5,7 +5,7 @@
  *	Use the prototypes to guide the definition construction.
  *
  *  Created on: Apr 23, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

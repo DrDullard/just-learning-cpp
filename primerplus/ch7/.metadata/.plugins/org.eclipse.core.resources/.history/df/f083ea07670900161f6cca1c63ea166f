@@ -9,7 +9,7 @@
  *	enter various values for which the program reports the factorial.
  *
  *  Created on: Apr 23, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

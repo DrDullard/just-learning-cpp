@@ -42,7 +42,7 @@
  *
  *
  *  Created on: Apr 12, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #import <iostream>

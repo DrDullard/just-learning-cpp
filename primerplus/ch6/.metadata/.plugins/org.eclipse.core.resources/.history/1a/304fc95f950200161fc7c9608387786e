@@ -18,7 +18,7 @@
  *	displaying the two categories, the program need do no sorting.
  *
  *  Created on: Apr 14, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

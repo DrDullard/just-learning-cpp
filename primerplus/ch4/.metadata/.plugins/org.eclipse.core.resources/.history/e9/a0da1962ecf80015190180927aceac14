@@ -12,7 +12,7 @@
  *	Here's the information in a single string: Fleming, Flip
  *
  *  Created on: Apr 2, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #import <iostream>

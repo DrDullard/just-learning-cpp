@@ -2,7 +2,7 @@
  * address.cpp
  *
  *  Created on: Apr 2, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #import <iostream>

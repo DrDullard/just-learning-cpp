@@ -18,7 +18,7 @@
  * or a C so that you don't have to worry about the gap between a D and an F.
  *
  *  Created on: Apr 2, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #import <iostream>

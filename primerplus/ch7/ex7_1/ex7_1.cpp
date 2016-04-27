@@ -12,7 +12,7 @@
  *	harmonic mean = 2.0 * x * y / (x + y)
  *
  *  Created on: Apr 16, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

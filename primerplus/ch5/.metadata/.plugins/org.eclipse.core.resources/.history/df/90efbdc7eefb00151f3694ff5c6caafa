@@ -6,7 +6,7 @@
  * the value of 100!.
  *
  *  Created on: Apr 6, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

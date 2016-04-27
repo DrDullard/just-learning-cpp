@@ -15,7 +15,7 @@
  *	const where appropriate.
  *
  *  Created on: Apr 26, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

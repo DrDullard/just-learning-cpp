@@ -6,7 +6,7 @@
  * miles per gallon your car has gotten.
  *
  *  Created on: Mar 27, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #import <iostream>

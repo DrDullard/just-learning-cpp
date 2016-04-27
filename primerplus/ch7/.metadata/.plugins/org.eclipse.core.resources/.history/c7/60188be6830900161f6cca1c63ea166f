@@ -9,7 +9,7 @@
  *  to identify the end of the data.
  *
  *  Created on: Apr 23, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 // Original listing filename was arrfun3.cpp

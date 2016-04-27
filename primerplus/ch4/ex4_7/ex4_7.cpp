@@ -15,7 +15,7 @@
  * methods) and cout.
  *
  *  Created on: Apr 3, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #import <iostream>

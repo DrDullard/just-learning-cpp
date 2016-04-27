@@ -25,7 +25,7 @@
  * 	1951 Kaiser
  *
  *  Created on: Apr 8, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

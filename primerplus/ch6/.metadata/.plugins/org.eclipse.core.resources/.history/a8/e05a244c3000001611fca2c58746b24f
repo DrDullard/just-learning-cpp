@@ -6,7 +6,7 @@
  *  each uppercase character to lowercase, and vice versa.
  *
  *  Created on: Apr 11, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

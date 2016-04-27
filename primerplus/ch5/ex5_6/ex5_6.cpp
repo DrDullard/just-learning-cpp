@@ -6,7 +6,7 @@
  * total sales for each individual year and for the combined years.
  *
  *  Created on: Apr 8, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 

@@ -21,7 +21,7 @@
  *	and last elements of the array, and then show the array.
  *
  *  Created on: Apr 23, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

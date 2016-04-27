@@ -6,7 +6,7 @@
  * displays the times and the average.  Use an array object to hold
  * the data. (Use a built-in array if array is not available).
  *  Created on: Apr 4, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #import <iostream>

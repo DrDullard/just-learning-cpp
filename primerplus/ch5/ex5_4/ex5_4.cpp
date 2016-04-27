@@ -4,7 +4,7 @@
  * Exercise 4:
  *
  *  Created on: Apr 6, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

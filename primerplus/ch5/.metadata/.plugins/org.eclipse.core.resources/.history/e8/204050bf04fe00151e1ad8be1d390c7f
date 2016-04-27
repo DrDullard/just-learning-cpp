@@ -12,7 +12,7 @@
  *	You entered a total of 7 words.
  *
  *  Created on: Apr 8, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

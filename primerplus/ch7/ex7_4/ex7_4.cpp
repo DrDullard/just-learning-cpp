@@ -16,7 +16,7 @@
  *	of winning this kind of lottery.
  *
  *  Created on: Apr 23, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

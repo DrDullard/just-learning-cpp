@@ -15,7 +15,7 @@
  *  You can use the Internet to get more recent figures.
  *
  *  Created on: Mar 27, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>

@@ -34,7 +34,7 @@
  *  initialization syntax and function names as addresses.
  *
  *  Created on: Apr 23, 2016
- *      Author: lamadd0x
+ *      Author: Larry Maddox
  */
 
 #include <iostream>
